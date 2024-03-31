@@ -1,0 +1,81 @@
+.products-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.product-card p {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.review-form {
+  margin-top: 10px;
+}
+
+.review-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.review-form textarea,
+.review-form input[type="number"] {
+  width: 100%;
+  padding: 6px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.review-form button[type="submit"] {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.reviews-list {
+  margin-top: 20px;
+}
+
+.reviews-list h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.reviews-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.reviews-list li {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+}

@@ -1,0 +1,51 @@
+
+.orders-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.orders-table th,
+.orders-table td {
+  padding: 8px;
+  border: 1px solid rgb(0, 187, 255);
+  text-align: left;
+}
+
+.orders-table th {
+  background-color: aliceblue;
+  font-weight: bold;
+}
+
+.orders-table tbody tr:nth-child(even) {
+  background-color: aliceblue;
+}
+
+.orders-table tbody tr:hover {
+  background-color: aliceblue;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .footer-container {
+    margin-top: 55%;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer-container {
+  margin-top:30% ;
+   
+
+  }
+}
+@media (min-width: 992px) {
+  .footer-container {
+    padding: 40px; 
+    margin-top:15% ;
+  }
+}
